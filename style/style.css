@@ -33,6 +33,23 @@ nav ul li {
 .active , nav ul li:hover {
     background-color: #1a1ac4;
 }
+
+nav ul li:last-child:hover .drop ul {
+    display: block;
+    background-color: blue;
+    z-index: 4;
+}
+.drop ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    z-index: 4;
+  }
+.drop {
+    background-color: blue;
+    width: 150px;
+    z-index: 4;
+}
 /*NAVIGAOTR END*/
 /*HEAD*/
 .head {
@@ -40,6 +57,7 @@ nav ul li {
     text-align: right;
     margin-right: 30px;
     color: blue;
+    margin-top: 50px;
 }
 /*Images*/
 .images {
@@ -51,7 +69,7 @@ nav ul li {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 100px;
+    top: 150px;
     z-index: 1;
 
 }
@@ -83,3 +101,13 @@ nav ul li {
     margin-top: 20px;
 }
 /*MAIN*/
+/*FOOTER*/
+footer {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 100%;  
+    background-color: blue;
+    color: white;
+}
+/*FOOTER*/

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+   
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    margin-bottom: 15px;
+}
+/*NAVIGAOTR*/
+nav {
+    background-color: #0000ff;
+    height: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left:410px ;
+}
+nav ul li {
+    width: 100px;
+    margin: 5px 10px 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    padding-top:3% ;
+}
+.active ,nav ul li:hover {
+    background-color: #1a1ac4;
+}
+
+ nav ul li:last-child:hover .drop ul {
+    display: block;
+    background-color: blue;
+}
+.drop ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+  }
+.drop {
+    background-color: blue;
+    width: 150px;
+}
+/*NAVIGAOTR END*/
+/*CONTENT*/
+.content img {
+    width: 300px;
+    position: absolute;
+    border-radius: 5px;
+    left: 200px;
+    top: 200px;
+}
+.content img:hover {
+    transform: scale(1.1);
+}
+.cont {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.main-co {
+    margin: 20px 0px;
+}
+h3 {
+    margin: 10px;
+}
+.ingridients ul {
+    list-style: disc;
+}
+li {
+    margin-top: 5px;
+}
+/*CONTENT*/
+/*CONTENT2*/
+.content2 img {
+    width: 300px;
+    position: absolute;
+    border-radius: 5px;
+    left: 200px;
+    top: 1000px;
+}
+.content2 img:hover {
+    transform: scale(1.1);
+}
+.cont2 {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+/*CONTENT2*/
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 400%;  
+    background-color: blue;
+    color: white;
+}
+footer ul {
+    list-style: none;
+    margin-left: 85%;
+    margin-top: 7%;
+}
+footer li {
+    margin-top: 10px;
+}
+/*FOOTER*/
