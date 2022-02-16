@@ -68,3 +68,18 @@ nav ul li {
 }
 /*Images*/
 /*HEAD END*/
+/*MAIN*/
+.main {
+    z-index: 3;
+    margin-top: 150px;
+    text-align: left;
+    background-color:blue ;
+    color: white;
+    border-radius: 5px;
+    margin-left: 700px;
+}
+.main p {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+/*MAIN*/

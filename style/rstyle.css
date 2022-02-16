@@ -7,6 +7,9 @@ body {
    
     font-family: 'Montserrat', sans-serif;
 }
+h1 {
+    margin-bottom: 15px;
+}
 /*NAVIGAOTR*/
 nav {
     background-color: #0000ff;
@@ -33,3 +36,47 @@ nav ul li {
     background-color: #1a1ac4;
 }
 /*NAVIGAOTR END*/
+/*CONTENT*/
+.content img {
+    width: 300px;
+    position: absolute;
+    border-radius: 5px;
+    left: 200px;
+    top: 200px;
+}
+.content img:hover {
+    transform: scale(1.1);
+}
+.cont {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.main-co {
+    margin: 20px 0px;
+}
+h3 {
+    margin: 10px;
+}
+.ingridients ul {
+    list-style: disc;
+}
+li {
+    margin-top: 5px;
+}
+/*CONTENT*/
+/*CONTENT2*/
+.content2 img {
+    width: 300px;
+    position: absolute;
+    border-radius: 5px;
+    left: 200px;
+    top: 1000px;
+}
+.content2 img:hover {
+    transform: scale(1.1);
+}
+.cont2 {
+    margin-left: 700px;
+    margin-top: 50px;
+}
+/*CONTENT2*/
