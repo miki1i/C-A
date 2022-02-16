@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+   
+    font-family: 'Montserrat', sans-serif;
+}
+/*NAVIGAOTR*/
+nav {
+    background-color: #0000ff;
+    height: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left:450px ;
+}
+nav ul li {
+    width: 100px;
+    margin: 5px 10px 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    padding-top:3% ;
+}
+.active ,nav ul li:hover {
+    background-color: #1a1ac4;
+}
+/*NAVIGAOTR END*/
