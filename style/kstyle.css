@@ -48,6 +48,9 @@ nav ul li {
 .drop {
     background-color: blue;
     width: 150px;
+    height: fit-content;
+    opacity: 0.8;
+
 }
 /*NAVIGAOTR END*/
 /*CONTENT*/

@@ -29,6 +29,7 @@ nav ul li {
     border-radius: 5px;
     height: 30px;
     padding-top:3% ;
+    z-index: 5;
 }
 .active , nav ul li:hover {
     background-color: #1a1ac4;
@@ -49,6 +50,7 @@ nav ul li:last-child:hover .drop ul {
     background-color: blue;
     width: 150px;
     z-index: 4;
+    opacity: 0.8;
 }
 /*NAVIGAOTR END*/
 /*HEAD*/
@@ -74,7 +76,7 @@ nav ul li:last-child:hover .drop ul {
 
 }
 .images img:first-child {
-    left: 350px;;
+    left: 350px;
 }
 .images img:last-child {
     left: 650px;
@@ -103,10 +105,10 @@ nav ul li:last-child:hover .drop ul {
 /*MAIN*/
 /*FOOTER*/
 footer {
-    width: 100px;
+    width: 100%;
     height: 200px;
     position: absolute;
-    top: 100%;  
+    top: 150%;  
     background-color: blue;
     color: white;
 }
